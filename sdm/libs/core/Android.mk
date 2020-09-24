@@ -28,7 +28,6 @@ endif
 
 ifeq ($(ENABLE_HYP),true)
     LOCAL_CFLAGS += -DHYPERVISOR
-
 endif
 
 LOCAL_ADDITIONAL_DEPENDENCIES := $(common_deps)
